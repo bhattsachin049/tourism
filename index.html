@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <title>Uttarakhand Tourism</title>
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+<header>
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="flight.png" width="30" height="30"  <h1 class="animated infinite heartBeat "></h1>
+        Uttarakhand Tourism</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/mktutorialBootstrap/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+<!-- loginModal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--signup Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="form-col">
+                <div class="form-group ">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group ">
+                  <label for="inputPassword4">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="form-group">
+                  <label for="cinputPassword4">Confirm Password</label>
+                  <input type="cpassword" class="form-control" id="cinputPassword4">
+                </div>
+                <div class="form-group ">
+                  <label for="inputcontact4">Mobile No.</label>
+                  <input type="contact" class="form-control" id="inputcontact4">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-5">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <input type="text" class="form-control"id="inputstate">
+                </input>
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Keep me signed in
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+      </div>
+    </div>
+  </div>
+</div>
+         
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js">
+</script>
+  <div class="gallery">
+    <a href="images/aayush-gop-rawat-17ymAoopMwM-unsplash.jpg" data-lightbox="my"><img src="images/aayush-gop-rawat-17ymAoopMwM-unsplash.jpg" ></a>
+    <a href="images/abdullah-ahmad-oZrNma6k8As-unsplash.jpg" data-lightbox="my"><img src="images/abdullah-ahmad-oZrNma6k8As-unsplash.jpg" ></a>
+    <a href="images/jordan1.jpg" data-lightbox="my"><img src="images/jordan1.jpg"></a>
+    <a href="images/ajay-kumar-jana-Kyx5-xM6dQg-unsplash.jpg" data-lightbox="my"><img src="images/ajay-kumar-jana-Kyx5-xM6dQg-unsplash.jpg"></a>
+    <a href="images/ajay-kumar-jana-UYOLg48y_Ns-unsplash.jpg" data-lightbox="my"><img src="images/ajay-kumar-jana-UYOLg48y_Ns-unsplash.jpg"></a>
+    <a href="images/ajay-kumar-jana-XUOSVsK1Pbs-unsplash.jpg" data-lightbox="my"><img src="images/ajay-kumar-jana-XUOSVsK1Pbs-unsplash.jpg"></a>
+    <a href="images/akshay-syal-5vDTocCCutE-unsplash.jpg" data-lightbox="my"><img src="images/akshay-syal-5vDTocCCutE-unsplash.jpg"></a>
+    <a href="images/alin-andersen-jQw6apsSLXk-unsplash.jpg" data-lightbox="my"><img src="images/alin-andersen-jQw6apsSLXk-unsplash.jpg"></a>
+    <a href="images/aman-upadhyay-yl1_2vmgnQY-unsplash.jpg" data-lightbox="my"><img src="images/aman-upadhyay-yl1_2vmgnQY-unsplash.jpg"></a>
+    <a href="images/ananya-sharma-r6X96xxJu5I-unsplash.jpg" data-lightbox="my"><img src="images/ananya-sharma-r6X96xxJu5I-unsplash.jpg"></a>
+    <a href="images/anshuman-abhishek-d2Uk2kqNM3Y-unsplash.jpg" data-lightbox="my"><img src="images/anshuman-abhishek-d2Uk2kqNM3Y-unsplash.jpg"></a>
+    <a href="images/anuj-yadav-2V2JOAf_-KY-unsplash.jpg" data-lightbox="my"><img src="images/anuj-yadav-2V2JOAf_-KY-unsplash.jpg"></a>
+    <a href="images/anuj-yadav-6uhSB5vYzQw-unsplash.jpg" data-lightbox="my"><img src="images/anuj-yadav-6uhSB5vYzQw-unsplash.jpg"></a>
+    <a href="images/anuj-yadav-t_KJhfKA_nU-unsplash.jpg" data-lightbox="my"><img src="images/anuj-yadav-t_KJhfKA_nU-unsplash.jpg"></a>
+    <a href="images/ashwini-chaudhary-4SqmKiyeXbE-unsplash.jpg" data-lightbox="my"><img src="images/ashwini-chaudhary-4SqmKiyeXbE-unsplash.jpg"></a>
+    <a href="images/avi-theret-2u6eLolV1JY-unsplash.jpg" data-lightbox="my"><img src="images/avi-theret-2u6eLolV1JY-unsplash.jpg"></a>
+    <a href="images/avi-theret-PYMXQjss01c-unsplash.jpg" data-lightbox="my"><img src="images/avi-theret-PYMXQjss01c-unsplash.jpg"></a>
+    <a href="images/awaneesh-kishore-0JXyY9QoZfM-unsplash.jpg" data-lightbox="my"><img src="images/awaneesh-kishore-0JXyY9QoZfM-unsplash.jpg"></a>
+    <a href="images/bernard-thomas-ZL8bYim8-iQ-unsplash.jpg" data-lightbox="my"><img src="images/bernard-thomas-ZL8bYim8-iQ-unsplash.jpg"></a>
+    <a href="images/bubble-pop-8xOQa06q90Q-unsplash.jpg" data-lightbox="my"><img src="images/bubble-pop-8xOQa06q90Q-unsplash.jpg"></a>
+    <a href="images/deepak-nautiyal-Nbv7PkL_rvI-unsplash.jpg" data-lightbox="my"><img src="images/deepak-nautiyal-Nbv7PkL_rvI-unsplash.jpg"></a>
+    <a href="images/devendra-bisht-iwChvEYLldE-unsplash.jpg" data-lightbox="my"><img src="images/devendra-bisht-iwChvEYLldE-unsplash.jpg"></a>
+    <a href="images/dilip-poddar-add9wq8DslE-unsplash.jpg" data-lightbox="my"><img src="images/dilip-poddar-add9wq8DslE-unsplash.jpg"></a>
+    <a href="images/dilip-poddar-W0zxq1oqq4E-unsplash.jpg" data-lightbox="my"><img src="images/dilip-poddar-W0zxq1oqq4E-unsplash.jpg"></a>
+    <a href="images/gagan-deep-dXqbPIiJvYc-unsplash.jpg" data-lightbox="my"><img src="images/gagan-deep-dXqbPIiJvYc-unsplash.jpg"></a>
+    <a href="images/gaurav-k-QHwyvamwzx4-unsplash.jpg" data-lightbox="my"><img src="images/gaurav-k-QHwyvamwzx4-unsplash.jpg"></a>
+    <a href="images/harikishor-singh-996IJ1akRjA-unsplash.jpg" data-lightbox="my"><img src="images/harikishor-singh-996IJ1akRjA-unsplash.jpg"></a>
+    <a href="images/harsh-rajpoot-OCtQg9cVi1I-unsplash.jpg" data-lightbox="my"><img src="images/harsh-rajpoot-OCtQg9cVi1I-unsplash.jpg"></a>
+    <a href="images/kartik-halkara-6BXr6oRk8yo-unsplash.jpg" data-lightbox="my"><img src="images/kartik-halkara-6BXr6oRk8yo-unsplash.jpg"></a> 
+    <a href="images/ketan-pandey-9qndr_Qh7Rg-unsplash.jpg" data-lightbox="my"><img src="images/ketan-pandey-9qndr_Qh7Rg-unsplash.jpg"></a>
+    <a href="images/kunal-parmar-onDrYTEH31g-unsplash.jpg" data-lightbox="my"><img src="images/kunal-parmar-onDrYTEH31g-unsplash.jpg"></a>
+    <a href="images/mangesh-kosare-t8uVjVZ_D9E-unsplash.jpg" data-lightbox="my"><img src="images/mangesh-kosare-t8uVjVZ_D9E-unsplash.jpg"></a>
+    <a href="images/mayur-randhe-EjfeYMIBLbo-unsplash.jpg" data-lightbox="my"><img src="images/mayur-randhe-EjfeYMIBLbo-unsplash.jpg"></a>
+    <a href="images/milin-john-C8Kn1FO7fSk-unsplash.jpg" data-lightbox="my"><img src="images/milin-john-C8Kn1FO7fSk-unsplash.jpg"></a>
+    <a href="images/milin-john-Qa3cynP9n8M-unsplash.jpg" data-lightbox="my"><img src="images/milin-john-Qa3cynP9n8M-unsplash.jpg"></a>
+    <a href="images/mohit-tomar-MjIIj-TBibQ-unsplash.jpg" data-lightbox="my"><img src="images/mohit-tomar-MjIIj-TBibQ-unsplash.jpg"></a>
+    <a href="images/muskan-gohrani-kr1EXKIsH-Y-unsplash.jpg" data-lightbox="my"><img src="images/muskan-gohrani-kr1EXKIsH-Y-unsplash.jpg"></a>
+    <a href="images/narinder-pal-b9xWxpbe9vw-unsplash.jpg" data-lightbox="my"><img src="images/narinder-pal-b9xWxpbe9vw-unsplash.jpg"></a>
+    <a href="images/narinder-pal-sv-AuBy4bsg-unsplash.jpg" data-lightbox="my"><img src="images/narinder-pal-sv-AuBy4bsg-unsplash.jpg"></a>
+    <a href="images/narinder-pal-Vv0oZQ_v48Y-unsplash.jpg" data-lightbox="my"><img src="images/narinder-pal-Vv0oZQ_v48Y-unsplash.jpg"></a>
+    <a href="images/navdeep-panwar-46ZHGXfPLPc-unsplash.jpg" data-lightbox="my"><img src="images/navdeep-panwar-46ZHGXfPLPc-unsplash.jpg"></a>
+    <a href="images/neha-maheen-mahfin-9yox2P5T1Ac-unsplash.jpg" data-lightbox="my"><img src="images/neha-maheen-mahfin-9yox2P5T1Ac-unsplash.jpg"></a>
+    <a href="images/neil-de-souza-SYgrvIuPnlQ-unsplash (1).jpg" data-lightbox="my"><img src="images/neil-de-souza-SYgrvIuPnlQ-unsplash (1).jpg"></a>
+    <a href="images/neil-de-souza-SYgrvIuPnlQ-unsplash.jpg" data-lightbox="my"><img src="images/neil-de-souza-SYgrvIuPnlQ-unsplash.jpg"></a>
+    <a href="images/neil-de-souza-yUp_s231KX0-unsplash.jpg" data-lightbox="my"><img src="images/neil-de-souza-yUp_s231KX0-unsplash.jpg"></a>
+    <a href="images/orijit-chatterjee-DVpfTUGyUNU-unsplash.jpg" data-lightbox="my"><img src="images/orijit-chatterjee-DVpfTUGyUNU-unsplash.jpg"></a>
+    <a href="images/pankaj-kumar-s9KlC-kMFtU-unsplash.jpg" data-lightbox="my"><img src="images/pankaj-kumar-s9KlC-kMFtU-unsplash.jpg"></a>
+    <a href="images/phil-dufrene-pYN8KiUyJGc-unsplash.jpg" data-lightbox="my"><img src="images/phil-dufrene-pYN8KiUyJGc-unsplash.jpg"></a>
+    <a href="images/prashant-kumar-2g1mvw5PDBQ-unsplash.jpg" data-lightbox="my"><img src="images/prashant-kumar-2g1mvw5PDBQ-unsplash.jpg"></a>
+    <a href="images/prashant-saini-tSC_gnIVsQA-unsplash.jpg" data-lightbox="my"><img src="images/prashant-saini-tSC_gnIVsQA-unsplash.jpg"></a>
+    <a href="images/pritomsreeta-borah-NFe0FoNimK4-unsplash.jpg" data-lightbox="my"><img src="images/pritomsreeta-borah-NFe0FoNimK4-unsplash.jpg"></a>
+    <a href="images/rachit-chaudhary-7VUar7ZgPvc-unsplash.jpg" data-lightbox="my"><img src="images/rachit-chaudhary-7VUar7ZgPvc-unsplash.jpg"></a>
+    <a href="images/raghav-yadav-vTBwJfulr_8-unsplash.jpg" data-lightbox="my"><img src="images/raghav-yadav-vTBwJfulr_8-unsplash.jpg"></a>
+    <a href="images/rishu-bhosale-_RVSgY1-ZQk-unsplash.jpg" data-lightbox="my"><img src="images/rishu-bhosale-_RVSgY1-ZQk-unsplash.jpg"></a>
+    <a href="images/rishu-bhosale-g4sByGJdSbc-unsplash.jpg" data-lightbox="my"><img src="images/rishu-bhosale-g4sByGJdSbc-unsplash.jpg"></a>
+    <a href="images/rishu-bhosale-z2_bkxhKLio-unsplash.jpg" data-lightbox="my"><img src="images/rishu-bhosale-z2_bkxhKLio-unsplash.jpg"></a>
+    <a href="images/rishu-bhosale-ZwuullHS6H4-unsplash.jpg" data-lightbox="my"><img src="images/rishu-bhosale-ZwuullHS6H4-unsplash.jpg"></a>
+    <a href="images/sachin-tamta-xT1Y2zBX4dQ-unsplash.jpg" data-lightbox="my"><img src="images/sachin-tamta-xT1Y2zBX4dQ-unsplash.jpg"></a>
+    <a href="images/sahil-singh-lsmF604JXCw-unsplash.jpg" data-lightbox="my"><img src="images/sahil-singh-lsmF604JXCw-unsplash.jpg"></a>
+    <a href="images/sandeep-kr-yadav--okvqF4UFvE-unsplash.jpg" data-lightbox="my"><img src="images/sandeep-kr-yadav--okvqF4UFvE-unsplash.jpg"></a>
+    <a href="images/sanjay-koranga-7dvbrbkr5wI-unsplash.jpg" data-lightbox="my"><img src="images/sanjay-koranga-7dvbrbkr5wI-unsplash.jpg"></a>
+    <a href="images/sanjay-koranga-OGHgYx0uUVY-unsplash.jpg" data-lightbox="my"><img src="images/sanjay-koranga-OGHgYx0uUVY-unsplash.jpg"></a>
+    <a href="images/satyam-hcr-McyDzKpNqFI-unsplash.jpg" data-lightbox="my"><img src="images/satyam-hcr-McyDzKpNqFI-unsplash.jpg"></a>
+    <a href="images/satyam-hcr-u4hdHVE0Dts-unsplash.jpg" data-lightbox="my"><img src="images/satyam-hcr-u4hdHVE0Dts-unsplash.jpg"></a>
+    <a href="images/shubhashis-roy-WbcXFBIF-34-unsplash.jpg" data-lightbox="my"><img src="images/shubhashis-roy-WbcXFBIF-34-unsplash.jpg"></a>
+    <a href="images/siddharth-acharya-HMpWr84dUQw-unsplash.jpg" data-lightbox="my"><img src="images/siddharth-acharya-HMpWr84dUQw-unsplash.jpg"></a>
+    <a href="images/siddharth-acharya-KG8pqoPy4NQ-unsplash.jpg" data-lightbox="my"><img src="images/siddharth-acharya-KG8pqoPy4NQ-unsplash.jpg"></a>
+    <a href="images/tinku-singh-9U_d3qHE16Y-unsplash.jpg" data-lightbox="my"><img src="images/tinku-singh-9U_d3qHE16Y-unsplash.jpg"></a>
+    <a href="images/vijay-kumar-gaba-eUJomFO07yg-unsplash.jpg" data-lightbox="my"><img src="images/vijay-kumar-gaba-eUJomFO07yg-unsplash.jpg"></a>
+    <a href="images/vijay-kumar-gaba-qX_5C6YoWqQ-unsplash.jpg" data-lightbox="my"><img src="images/vijay-kumar-gaba-qX_5C6YoWqQ-unsplash.jpg"></a>
+    <a href="images/vishnu-prasad-22PtfxxhZHI-unsplash.jpg" data-lightbox="my"><img src="images/vishnu-prasad-22PtfxxhZHI-unsplash.jpg"></a>
+    <a href="images/vishnu-prasad-kLSlX3v6Prc-unsplash.jpg" data-lightbox="my"><img src="images/vishnu-prasad-kLSlX3v6Prc-unsplash.jpg"></a>
+   
+  </div>
+ 
+ <!-- FOOTER -->
+ <footer class="container">
+  <p class="float-right"><a href="#">Back to top</a></p>
+  <p>&copy; 2017-2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
+</main>
+</header>
+</body>
+</html>
